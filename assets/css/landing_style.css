@@ -1,0 +1,155 @@
+@font-face{
+    font-family: 'Confetti_Stream';
+    src: url('../fonts/Confetti_Stream.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+    
+}
+
+@font-face{
+    font-family: 'Proxima_Nova_Condensed';
+    src:url('../fonts/Proxima_fonts/Proxima_Nova_Alt_Condensed_Bold.otf') format('otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Proxima_Nova_Light';
+    src:url('../fonts/Proxima_fonts/Proxima_Nova_Alt_Light.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.text-confetti{
+    font-family: 'Confetti_Stream'!important;
+    font-size: 50px;
+    
+}
+
+.titreh1{
+    font-family: 'Proxima_Nova_Condensed';
+    color: white;
+    
+}
+
+.titreStyle{
+    font-family: 'Confetti_Stream';
+    color: white;
+    font-size: 32.4px;
+    
+}
+
+.corpsP{
+    font-family:'Proxima_Nova_Light';
+    font-size: 18px;
+    color: white;
+    
+}
+.corpsP1{
+    font-family:'Proxima_Nova_Light';
+    font-size: 15px;
+    
+}
+
+.nav_accueil a:hover{
+    background-color: #1ab394   !important;
+    color: white !important;
+}
+
+.nav_propos a:hover{
+    background-color: #ed5565 !important;
+    color: white !important;
+}
+
+.nav_projet a:hover{
+    background-color: #1c84c6 !important;
+    color: white !important;
+}
+
+.nav_inscription a:hover{
+    background-color: #f8ac59 !important;
+    color: white !important;
+}
+.nav_contact a:hover{
+    background-color: #23c6c8 !important;
+    color: white !important;
+}
+
+.carousel_row{
+    margin-top: 50px !important;
+   // background-image: url("../img/epls.jpg") !important;
+    //background-color: blue;
+}
+.img-landing{
+    width: 254px;
+    height: 166px;
+     border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px;
+}
+
+.img-propos{
+    
+    height: 296px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    //border-spacing: 10px;
+    border: 30px; 
+    border-color: white;
+}
+.box-landing1{
+    border-radius: 10px !important;
+    border: 1px;
+}
+.icone i{
+    border-radius: 50% !important;
+    border : 1px !important;
+    background-color: #1ab394 ! important;
+    color: white !important;
+    padding: 10px;
+}
+
+.fa-enfant{
+    float: right;
+}
+.mesWidgets{
+    height: 214px !important;
+}
+.mesWidgets1{
+    margin-top: 55px;
+    height: 160px !important;
+}
+
+.projeteduc{
+    height: 420px!important;
+   text-align: justify;
+   font-size: 15px;
+}
+
+.image_projet{
+    width: 263px !important;
+    height: 153px !important;
+    margin-top: 60px;
+}
+.lepdf{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+.inscription{
+    background-image: url(../img/parallax1.jpg);
+    height: 600px;
+    color: white;
+    font-family: 'Confetti_Stream';
+    text-align: center;
+    font-size: 160px;
+}
+.positionInscription{
+    margin-top: 70px;
+}
+.petittitre{
+    font-size: 70px !important
+}

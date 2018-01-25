@@ -70,7 +70,7 @@ $(document).ready(function () {
     // Initialize slimscroll for right sidebar
     $('.sidebar-container').slimScroll({
         height: '100%',
-        railOpacity: 0.4,
+        railOpacity: 0.9,
         wheelStep: 10
     });
 
