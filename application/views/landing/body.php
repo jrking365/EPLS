@@ -269,14 +269,14 @@
                         <h1 class="titreh1" style="color: #f0df41"><strong>Vivre sa foi en Jésus-Christ</strong></h1> 
                     </div>
                 </div> 
-                
+
                 <div class="col-lg-12 lepdf">
-                    <a href="<?=  base_url()?>assets/pdf/28juillet-credo-Institut.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-5x" ></i></a><br>
+                    <a href="<?= base_url() ?>assets/pdf/28juillet-credo-Institut.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-5x" ></i></a><br>
                     ce que nous croyons
-                    
+
                 </div>
                 <div class="image_projet">
-                    <img class="image_projet" src="<?=  base_url()?>assets/img/epls_people.jpg"> 
+                    <img class="image_projet" src="<?= base_url() ?>assets/img/epls_people.jpg"> 
                 </div>
             </div>
 
@@ -289,8 +289,123 @@
 <section class="container-fluid" id="Inscription" >
     <div class="row space-30 inscription ">
         <div class="col-lg-12 positionInscription">
-           Rejoignez Nous
-           <p class="petittitre">Inscrivez vous des a present</p>
+            Rejoignez Nous
+            <p class="petittitre">Inscrivez vous des a present...</p>
         </div>
+        <div class=" col-lg-offset-2 col-lg-4 lesbuttons">
+            <a href="<?= base_url() ?>assets/pdf/Formulaire.pdf" class="btn btn-lg btn-warning" target="_blank">Formulaire d'admission <i class="fa fa-file-pdf-o"></i></a><br>
+        </div>
+        <div class="col-lg-4 lesbuttons">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdLlR8sZptUXAO45__uSoujG35UJIsxVQhx-iZ6IIBuawtbWw/viewform" class="btn btn-info btn-lg" target="_blank">Inscription en Ligne <i class="fa fa-link"></i></a>
+        </div>
+        <div class="col-lg-12 space-30">
+
+        </div>
+        <div class="col-lg-12 lesbuttons space-30">
+            <a href="https://www.paypal.com/webapps/shoppingcart?flowlogging_id=8255d232b3cdb&mfid=1517268096182_8255d232b3cdb#/checkout/openButton" class="btn  btn-danger" target="_blank">Faire un don <i class="fa fa-paypal fa-2x"></i></a>
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid" id="contactezNous">
+    <div class="row white-bg space-15">
+        <div class="col-lg-12 space-15">
+            <h1 class="titreh1 contactTitre">Nous contacter</h1>
+        </div>
+        <div class="col-lg-4">
+            <img src="<?= base_url() ?>assets/img/epls2.jpg" class="box-landing1">
+            <div class="infoContact">
+                <h3>Ecole primaire La Source (EPLS)</h3>
+                <h3>Courriel: info@eplasource.org</h3>
+                <h3>Téléphone: 819.791-3701</h3>
+                <h3>Mobile: 819.578-5414</h3>
+                <h3>Fax: 819.791-7072</h3>
+                <h3>www.eplasource.org</h3>
+                 <div class="row">
+                <div class="col-lg-12">
+
+                    
+                    <ul class="list-inline social-icon icone ">
+                        <li><a href="#"><i class="fa fa-twitter "></i></a>
+                        </li>
+                        <li><a href="https://www.facebook.com/EPLaSource/" target="_blank"><i class="fa fa-facebook "></i></a>
+                        </li>
+                        <li><a href="https://plus.google.com/102229890003088491625" target="_blank"><i class="fa fa-google-plus"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+              
+                <span>Adresse postale de l'école:</span>
+                <h3>1399 Campbell, Sherbrooke J1M 0C1</h3>
+                
+            </div>
+           
+        </div>
+        <div class="col-lg-7 ">
+            <div class="row bg-contact">
+                <div class="texteContact">
+                    <h4> Nous avons besoin de votre support!</h4>
+                    <ul>
+                        <li>Appuyez notre projet en nous écrivant</li>
+                        <li>Pour les parents: Informations supplémentaires pour inscription</li>
+                        <li>Offrir vos services pour travailler à l'école</li>
+                    </ul>
+                </div>
+                <div class="formulaire">
+                    <form class="form-horizontal">
+
+                        <div class="form-group"><label class="col-lg-2 control-label">Nom:</label>
+
+                            <div class="col-lg-8"><input type="text" placeholder="Nom" class="form-control"> 
+                            </div>
+                        </div>
+                        <div class="form-group"><label class="col-lg-2 control-label">Courriel:</label>
+
+                            <div class="col-lg-8"><input type="text" placeholder="Courriel" class="form-control"> 
+                            </div>
+                        </div>
+                        <div class="form-group"><label class="col-lg-2 control-label">Sujet:</label>
+
+                            <div class="col-lg-8"><input type="text" placeholder="Sujet" class="form-control"> 
+                            </div>
+                        </div>
+                        <div class="form-group"><label class="col-lg-2 control-label">Message:</label>
+
+                            <div class="col-lg-8">
+                                <textarea class="letextarea col-lg-12">
+                                    
+                                </textarea>
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <div class="col-lg-offset-2 col-lg-10">
+                                <button class="btn btn-lg btn-white" type="submit">Envoyer</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvlCo1Lw5XDo-cGBhl7MZ32FiDGHYyvaA&callback=initMap">
+        </script>
+
+        <div class="col-lg-12">
+
+            <div class="ibox ">
+                <div class="ibox-title">
+                    <h5>Notre localisation</h5>
+                </div>
+                <div class="ibox-content">
+
+                    <div class="google-map" id="map1"></div>
+                </div>
+            </div>
+
+        </div>
+
     </div>
 </section>

@@ -1,3 +1,5 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');?>
 <!DOCTYPE html>
 <html>
 
@@ -52,8 +54,8 @@
                             </ul>
                             <ul class="nav navbar-top-links navbar-right">
                                 <li class="page-scroll">
-                                    <a href="login.html">
-                                        <i class="fa fa-sign-out"></i> Log out
+                                    <a href="<?=  base_url()?>Login">
+                                        <i class="fa fa-sign-in"></i>Se connecter
                                     </a>
                                 </li>
                             </ul>

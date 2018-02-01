@@ -153,3 +153,50 @@
 .petittitre{
     font-size: 70px !important
 }
+.lesbuttons{
+    font-size: 20px;
+    font-family: "Proxima_Nova_Condensed";
+}
+
+.contactTitre{
+    text-align: center;
+    color: #1ab394 ;
+}
+.infoContact{
+    margin-top: 20px;
+    
+}
+.infoContact h3{
+    font-size: 20px;
+}
+.texteContact{
+    margin-top: 10px;
+}
+.formulaire{
+    
+}
+
+.formulaire input{
+    border-color: #fbdc04 !important;
+    color: white !important;
+    background: transparent;
+}
+
+.formulaire label{
+    color: #fbdc04 !important;
+    font-size: 20px;
+}
+.formulaire button{
+    color: #2cbcdc;
+}
+.formulaire button:hover{
+    color: #2cbcdc !important;
+}
+.bg-contact{
+    background-color: #2cbcdc;
+    color: white !important;
+}
+
+.letextarea{
+    height: 178px;
+}
