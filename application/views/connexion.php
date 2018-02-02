@@ -50,7 +50,6 @@
                                 <strong> <?= $error ?> </strong>
                             </div>
                         <?php endif; ?>
-
                         <?php echo form_open('login'); ?>
                         <!--<form class="m-t" role="form" action="">-->
                         <div class="form-group">

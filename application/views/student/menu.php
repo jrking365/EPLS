@@ -28,7 +28,7 @@
                         <?php
                         foreach ($levels as $level) {
                             ?>
-                            <option value="<?= $level->id ?>" ><?= $level->title ?></option>
+                            <option value="<?= $level->id ?>"><?= $level->title ?></option>
                             <?php
                         }
                         ?>

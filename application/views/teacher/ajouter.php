@@ -15,7 +15,7 @@
                     <!--<form role="form" id="form ">-->
                         
                         <div class="form-group"><label>employe*:</label> 
-                            <input type="text" placeholder="employe" class="typeahead_2 form-control" name="employe" value="<?= set_value('employe')?>" />
+                            <input type="text" placeholder="employe" class="typeahead_2 form-control" name="employe" value="<?= set_value('employe')?>"/>
                         </div>
                         <label>Grade*:</label>  <select class="form-control m-b" required="" id="region" name="grade" >
                             <option selected="" ><?= set_value('grade'); ?></option>
@@ -37,7 +37,6 @@
                                 <?php
                             }
                             ?>
-
                         </select>
 
                        

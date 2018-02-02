@@ -18,10 +18,10 @@
                         </div>
 
                         <div class="form-group"><label>Prenom*:</label> 
-                            <input type="text" placeholder="Entrez le prénom" class="form-control"  required name="firstname" value="<?= set_value('firstname'); ?>" >
+                            <input type="text" placeholder="Entrez le prénom" class="form-control"  required name="firstname" value="<?= set_value('firstname'); ?>">
                         </div>
                         <div class="form-group"><label>Nom*:</label> 
-                            <input type="text" placeholder="Entrez le Nom" class="form-control" required name="lastname" value="<?= set_value('lastname') ?>"  >
+                            <input type="text" placeholder="Entrez le Nom" class="form-control" required name="lastname" value="<?= set_value('lastname') ?>">
                         </div>
 
 
@@ -33,7 +33,7 @@
                         </div>
 
                         <label>Sexe*:</label>  <select class="form-control m-b" required="" name="gender"  >
-                            <option selected=""><?= set_value('gender') ?> </option>
+                            <option selected=""><?= set_value('gender') ?></option>
                             <option>Féminin</option>
                             <option>Masculin</option>
 
@@ -61,7 +61,6 @@
                                 <?php
                             }
                             ?>
-
                         </select>
                         <label>Ville*:</label>  <select class="form-control m-b" required="" id="ville" name="city" >
                             <option  selected=""><?= set_value('city') ?></option>
@@ -69,13 +68,13 @@
 
                         </select>
                         <div class="form-group"><label>Rue:</label> 
-                            <input type="text" placeholder="Entrer la rue" class="form-control" name="street" value="<?= set_value('street') ?>" >
+                            <input type="text" placeholder="Entrer la rue" class="form-control" name="street" value="<?= set_value('street') ?>">
                         </div>
                         <div class="form-group"><label>Civic Number*:</label> 
                             <input type="number" placeholder="Entrer le Civic Number" class="form-control" required name="civicnumber" value="<?= set_value('civicnumber') ?>">
                         </div>
                         <div class="form-group"><label>Code Postal:</label> 
-                            <input type="text" placeholder="Entrer le code postal" class="form-control" name="postalcode" value="<?= set_value('postalcode') ?>" >
+                            <input type="text" placeholder="Entrer le code postal" class="form-control" name="postalcode" value="<?= set_value('postalcode') ?>">
                         </div>
 
                         <div class="form-group">

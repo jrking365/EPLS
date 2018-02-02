@@ -42,7 +42,6 @@
             <?php
         }
         ?>
-
         </tbody>
         <tfoot>
             <tr>

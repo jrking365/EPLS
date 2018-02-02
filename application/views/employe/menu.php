@@ -39,7 +39,7 @@
                                 <?php
                                 foreach ($positions as $position){
                                     ?>
-                                <option value="<?= $position->id?>" ><?= $position->title?></option>
+                                <option value="<?= $position->id?>"><?= $position->title?></option>
                                 <?php
                                 }
                                 ?>

@@ -25,7 +25,6 @@
 
                      <?php echo validation_errors(); ?>
                      <?php echo form_open('Teachers/addGrade'); ?>
-                    
                         <div class="input-group">
                             <input type="text" placeholder="Ajouter un grade. " class="input input-sm form-control" name="grade" value="<?= set_value("grade")?>" required="">
                             <span class="input-group-btn">
@@ -49,8 +48,6 @@
                         <?php
                        }
                        ?>
-                       
-                      
                     </ul>
                 </div>
             </div>
@@ -87,8 +84,6 @@
                         <?php
                        }
                        ?>
-                       
-                      
                     </ul>
                 </div>
             </div>

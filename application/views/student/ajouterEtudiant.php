@@ -36,7 +36,7 @@
                                                     <label class="col-lg-2 control-label">Sexe*:</label> 
                                                     <div class="col-lg-10">
                                                         <select class="form-control m-b"  name="gender"  >
-                                                            <option selected=""><?= set_value('gender') ?> </option>
+                                                            <option selected=""><?= set_value('gender') ?></option>
                                                             <option>Féminin</option>
                                                             <option>Masculin</option>
                                                         </select>
@@ -87,7 +87,7 @@
                                                 <label class="col-lg-2 control-label">Categorie*:</label> 
                                                 <div class="col-lg-10">
                                                     <select class="form-control m-b"  name="category"  >
-                                                        <option selected=""><?= set_value('category') ?> </option>
+                                                        <option selected=""><?= set_value('category') ?></option>
 
                                                     </select>
                                                 </div>

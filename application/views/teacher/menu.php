@@ -37,7 +37,7 @@
                                     <?php
                                     foreach ($grades as $grade) {
                                         ?>
-                                        <option value="<?= $grade->id ?>" ><?= $grade->title ?></option>
+                                        <option value="<?= $grade->id ?>"><?= $grade->title ?></option>
                                         <?php
                                     }
                                     ?>
@@ -50,12 +50,10 @@
                                     <?php
                                     foreach ($levels as $level) {
                                         ?>
-                                        <option value="<?= $level->id ?>" ><?= $level->title ?></option>
+                                        <option value="<?= $level->id ?>"><?= $level->title ?></option>
                                         <?php
                                     }
                                     ?>
-
-
                                 </select>
                             </div>
 
