@@ -374,7 +374,6 @@
 
                             <div class="col-lg-8">
                                 <textarea class="letextarea col-lg-12">
-                                    
                                 </textarea>
                             </div>
                         </div>

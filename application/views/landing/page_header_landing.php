@@ -49,7 +49,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
                                     <a href="#Inscription" class="btn" >Inscription</a>
                                 </li>
                                 <li class="page-scroll nav_contact">
-                                    <a href="#" class="btn" >Contact</a>
+                                    <a href="#contactezNous" class="btn" >Contact</a>
                                 </li>
                             </ul>
                             <ul class="nav navbar-top-links navbar-right">

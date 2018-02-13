@@ -199,4 +199,7 @@
 
 .letextarea{
     height: 178px;
+    background: transparent;
+    border-color: #fbdc04 !important;
+    color: white !important;
 }
